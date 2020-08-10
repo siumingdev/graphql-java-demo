@@ -1,4 +1,4 @@
-INSERT INTO user (user_id, username, password, email)
+INSERT INTO user (id, username, password, email)
 VALUES (1, 'siuming', '2ac9cb7dc02b3c0083eb70898e549b63', 'me@siuming.dev'),
        (2, 'mike', '2ac9cb7dc02b3c0083eb70898e549b63', 'mike@siuming.dev');
 
