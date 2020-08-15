@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.List;
 
-
 @Controller
 @RequestMapping("/v1/user")
 public class UserController {

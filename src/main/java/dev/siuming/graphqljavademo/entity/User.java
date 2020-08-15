@@ -7,7 +7,6 @@ import org.springframework.data.relational.core.mapping.Table;
 
 import java.util.Set;
 
-
 @Table("user")
 @Data
 public class User {

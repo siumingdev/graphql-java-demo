@@ -7,7 +7,6 @@ import org.springframework.data.relational.core.mapping.Table;
 
 import java.time.LocalDateTime;
 
-
 @Table("todo_item")
 @Data
 @AllArgsConstructor
