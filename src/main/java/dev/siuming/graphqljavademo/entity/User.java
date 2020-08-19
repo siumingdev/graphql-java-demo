@@ -15,8 +15,8 @@ public class User {
     private String password;
     private String email;
 
-    @MappedCollection(idColumn = "user_id")
-    private Set<TodoItem> todoItems;
+//    @MappedCollection(idColumn = "user_id")
+//    private Set<TodoItem> todoItems;
 
 //    public void addTodoItem(String content, LocalDateTime dueDt, LocalDateTime createDt) {
 //        if (todoItems == null) {

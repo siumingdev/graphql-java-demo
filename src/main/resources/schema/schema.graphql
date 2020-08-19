@@ -1,0 +1,19 @@
+type Query {
+  allUsers: [User]
+  userById(id:Int): User
+  todoItemById(id:Int): TodoItem
+}
+
+type User {
+  id: Int!
+  username: String!
+  password: String!
+  email: String!
+  todoItems: [TodoItem]
+}
+
+type TodoItem {
+  id: Int!
+  userId: Int!
+  content: String!
+}

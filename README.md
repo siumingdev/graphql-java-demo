@@ -16,7 +16,7 @@ In this repo, I try to do a POC with existing ways to implement GraphQL server i
 * Spring Web
 * Spring Data JDBC
 * MySQL
-* GraphQL Java
+* GraphQL Java Kickstart
 
 # Remarks
 
